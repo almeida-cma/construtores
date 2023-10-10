@@ -1,0 +1,16 @@
+public class MainCar {
+    public static void main(String[] args) {
+        // Criando objetos da classe Car
+        Car defaultCar = new Car(); // Usará o construtor padrão
+        Car customCar = new Car("Red", 2020); // Usará o construtor sobrecarregado
+
+        // Exibindo informações dos carros
+        System.out.println("Default Car:");
+        System.out.println("Color: " + defaultCar.getColor());
+        System.out.println("Year: " + defaultCar.getYear());
+
+        System.out.println("\nCustom Car:");
+        System.out.println("Color: " + customCar.getColor());
+        System.out.println("Year: " + customCar.getYear());
+    }
+}
